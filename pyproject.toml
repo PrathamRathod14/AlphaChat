@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AlphaChat"
+version = "0.1.0"
+description = "AlphaChat is a chatbot with a GUI and console interface for real-time conversations, Q&A management, and AI-driven features like voice interaction, image generation, and PDF Summarization."
+authors = [{ name = "Darshan Shah", email = "darshannolkha123@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "argparse",
+    "asyncio",
+    "beautifulsoup4==4.12.3",
+    "docx",
+    "fastapi==0.115.6",
+    "fpdf==1.7.2",
+    "langchain==0.3.16",
+    "langchain-community==0.3.16",
+    "langchain-groq==0.2.3",
+    "nicegui==2.10.1",
+    "numpy==2.2.2",
+    "Pillow==11.1.0",
+    "pyjokes==0.8.3",
+    "pyttsx3==2.98",
+    "pywhatkit==5.4",
+    "pyaudio==0.2.14",
+    "pypdf2==3.0.1",
+    "requests==2.32.3",
+    "speechrecognition==3.14.1",
+    "torch==2.6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "mypy"]
+
+[project.scripts]
+myproject = "src.app:main"

@@ -1,0 +1,9 @@
+[2025-01-30 09:00:00] INFO: Chatbot application started.
+[2025-01-30 09:00:05] INFO: Chat interaction loop started.
+[2025-01-30 09:01:12] INFO: User asked: "What is Python?"
+[2025-01-30 09:01:12] INFO: Chatbot responded: "Python is a versatile programming language."
+[2025-01-30 09:03:45] INFO: Imported knowledge base from 'knowledge_base.csv'.
+[2025-01-30 09:04:10] INFO: User asked: "What is the weather in Braunschweig?"
+[2025-01-30 09:05:20] INFO: User asked: "List all questions."
+[2025-01-30 09:05:25] INFO: Chatbot listed 20 questions from the knowledge base.
+[2025-01-30 09:06:00] INFO: User exited the chat.
