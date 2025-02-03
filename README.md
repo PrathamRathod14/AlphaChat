@@ -1,6 +1,7 @@
 # 🤖 AlphaChat: A Chatbot Application
 
 
+
 ## 📝 Overview
 AlphaChat is a chatbot with a GUI and console interface for real-time conversations, Q&A management, and AI-driven features like voice interaction, image generation, and PDF Summarization.
 
